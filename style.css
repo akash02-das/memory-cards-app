@@ -28,7 +28,7 @@ h1 button {
 }
 
 .btn {
-    background-color: #fff;
+    background-color: #5cb85c;
     border: 1px solid #aaa;
     border-radius: 3px;
     font-size: 14px;
@@ -43,14 +43,16 @@ h1 button {
 }
 
 .btn-ghost {
-    border: 0;
-    background: transparent;
+    border: 1px solid #aaa;
+    background: #d9534f;
 }
 
 .clear {
     position: absolute;
     bottom: 30px;
     left: 30px;
+    background-color: #d9534f;
+    font-size: 16px;
 }
 
 .cards {
@@ -115,10 +117,12 @@ h1 button {
 .inner-card-front {
     transform: rotateX(0deg);
     z-index: 2;
+    background-color: #0275d8;
 }
 
 .inner-card-back {
     transform: rotateX(180deg);
+    background-color: #5bc0de;
 }
 
 .inner-card-front::after,
@@ -130,7 +134,7 @@ h1 button {
     right: 10px;
     font-weight: bold;
     font-size: 16px;
-    color: #aaa;
+    color: #333;
 }
 
 .navigation {
